@@ -1,0 +1,53 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# -----------------------
+# Virtual environment
+# -----------------------
+venv/
+env/
+.env/
+*.venv
+
+# -----------------------
+# Python package files
+# -----------------------
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -----------------------
+# Streamlit / logs / cache
+# -----------------------
+.streamlit/
+*.log
+.cache/
+*.db
+
+# -----------------------
+# OS-specific
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# IDE / editor files
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------
+# Secrets / credentials
+# -----------------------
+*.env
+credentials.py
