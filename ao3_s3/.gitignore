@@ -51,3 +51,6 @@ Thumbs.db
 # -----------------------
 *.env
 credentials.py
+
+data/*
+!data/migrations/
